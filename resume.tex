@@ -1,0 +1,118 @@
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+
+% Change the page layout if you need to
+\geometry{left=2cm,right=10cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Carlito}
+\else
+  % If using pdflatex:
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+\fi
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{000000}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{2E2E2E}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Yasien Essam}
+\personalinfo{%
+  \email{yasien.essam99@gmail.com}
+  \location{Cairo, Egypt}
+  \linkedin{https://www.linkedin.com/in/yasien-essam99/}
+  \github{https://github.com/Yasien99}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+\cvsection[Projects]{Education}
+
+\cvevent{Bachelors in Biomedical Engineering}{Cairo University · Faculty of Engineering}{ 2018 – present(\textbf{3.4 GPA})}{}
+%\divider
+\begin{itemize}
+\item   \textbf {Undergraduate Courses} : Machine Learning, Computer Vision, Probability, Statistics, Calculus, Linear-Algebra, Digital Signal Processing, Data Structures, Algorithms, Databases, Embedded Systems, Computer Graphics.
+  
+\end{itemize}
+
+\cvsection{Internships and Experience}
+
+\cvevent{Computer Vision Intern}{The Sparks Foundation}{Mar 2022 - Apr 2022}{Remote}
+\begin{itemize}
+\item Implement optical character recognition which extract printed or handwritten text from a photo.  
+\end{itemize}
+
+\cvevent{Internet of Things Instructor}{STP}{Aug 2020 –May 2021}{Cairo,Egypt}
+\begin{itemize}
+\item Designed and prepared the academic material in coordination with the rest of the team
+\smallskip
+\item Made more than 10 small projects with participants.
+\smallskip
+\item Design and lead competition for the final project which was a smart parking system.
+\end{itemize}
+
+
+\cvsection{SKILLS}
+
+\begin{itemize}
+\item Languages: C, C++, Python
+\smallskip
+%\divider
+\item Data Science: Tensorflow, Numpy, Pandas, Sklearn, PyQT5, Tableau
+\smallskip
+%\divider
+\item Software Engineering: OOP, Data-Structure, Algorithms, Data-Base
+\smallskip
+%\divider
+\item Image Processing: OpenCV
+\smallskip
+%\divider
+\item IoT : NodeMCU, Arduino, Blynk
+\smallskip
+%\divider
+\item Source Control: Git 
+\end{itemize}
+
+\cvsection{Voulntiering}
+
+\cvevent{Open Source Volunteer}{Neuromatch}{Mar 2022 - Jun 2022}{remote}
+
+\begin{itemize}
+\item Help with flagging copy-right violations in the Deep Learning course content
+\end{itemize}
+
+\cvevent{Team Lead}{Resala Charity Organization}{Jul 2016 - present}{Cairo,Egypt}
+\begin{itemize}
+\item My main work was to lead my team to help build and renovate mosques and
+schools.; in addition to, all the extra activities such as fundraising, PR, content creating.
+\smallskip
+\item Build a concrete Team and process.
+\smallskip
+
+\item Setting KPIs for and monitoring performance for the whole team.
+\end{itemize}
+
+\end{document}
