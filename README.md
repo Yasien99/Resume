@@ -10,7 +10,7 @@ An elegant \LaTeX\ résumé template, compiled with \XeLaTeX
 
 - Easy to customize or extend
 - Hyperlinks can be included in generated PDF.
----[Yasien_s_CV.pdf](https://github.com/Yasien99/Resume/files/8931279/Yasien_s_CV.pdf)
+---
 
 
 ### Sample Output
