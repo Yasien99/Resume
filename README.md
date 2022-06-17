@@ -10,11 +10,12 @@ An elegant \LaTeX\ résumé template, compiled with \XeLaTeX
 
 - Easy to customize or extend
 - Hyperlinks can be included in generated PDF.
----
+---[Yasien_s_CV.pdf](https://github.com/Yasien99/Resume/files/8931279/Yasien_s_CV.pdf)
+
 
 ### Sample Output
 
-![RESUME PREVIEW](https://user-images.githubusercontent.com/55417069/174397991-64fb39d1-1ffd-4ce8-a424-871d1db3270c.png)
+![RESUME PREVIEW](https://user-images.githubusercontent.com/55417069/174399836-d18d9584-524b-4680-9c52-7837fa5050cb.png)
 
 ---
 
