@@ -1,5 +1,11 @@
 # Résumé
-An elegant \LaTeX\ résumé template, compiled with \XeLaTeX
+An elegant \LaTeX\ résumé template, compiled with \XeLaTeX 
+
+#### Inspired by 
+- [Resume/CV building for Data Jobs (Arabic) - Part 1](https://www.youtube.com/watch?v=R0hsJiNxdDE)
+- [Resume/CV building for Data Jobs (Arabic) - Part 2](https://www.youtube.com/watch?v=CrTO0hrC-zQ)
+
+
 
 ## Quick Start
 - Fork this repository
@@ -13,7 +19,7 @@ An elegant \LaTeX\ résumé template, compiled with \XeLaTeX
 ---
 
 
-### Sample Output
+## Sample Output
 
 ![RESUME PREVIEW](https://user-images.githubusercontent.com/55417069/174399836-d18d9584-524b-4680-9c52-7837fa5050cb.png)
 
